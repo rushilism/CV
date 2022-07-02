@@ -30,14 +30,6 @@ for (var i = 0; i < reveals.length; i++) {
 }
 }
 
-$(document).ready(function() {
-  $(window).on('resize', function() {
-    var win = $(this);
-    if (win.width() < 1028) {
-      $(".reveal").removeClass('reveal');
-    }
-  }).trigger("resize"); //this to force first event on load
-});
 
 window.addEventListener("scroll", reveal);
 
