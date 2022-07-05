@@ -1,0 +1,408 @@
+@import url('http://fonts.cdnfonts.com/css/the-historical-marliana');
+@import url('http://fonts.cdnfonts.com/css/brandon-grotesque-medium');
+@import url('http://fonts.cdnfonts.com/css/bondrians');
+
+body {
+  font-family: 'Brandon Grotesque Medium', sans-serif;
+  margin: 0;
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+  text-align: var(--bs-body-text-align);
+  background-color: var(--bs-body-bg);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  align-items: center;
+  scroll-behavior: smooth;
+
+}
+
+h1 {
+  font-family: 'THE HISTORICAL MARLIANA', sans-serif;
+}
+
+/* home */
+.home {
+  background-color: #ff4c68;
+  width: 100%;
+  height: 100%;
+  padding: 7% 15%;
+}
+.navt{
+  background-color: white
+}
+.navbar {
+  margin: 0 15%;
+}
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    margin-top: 0;
+}
+.navbar-dark .navbar-toggler {
+  color: #ff4c68;
+  border-color: #ff4c68;
+}
+
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: #ff4c68;
+  border: 1px solid #ff4c68;
+  border-radius: 0.25rem;
+  transition: box-shadow .2s ease-in-out;
+}
+
+.logo {
+  width: 200px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #ff4c68;
+  padding: 0 18px;
+}
+
+.title {
+  color: #F5F5F5;
+  margin-top: 5%;
+  font-family: 'THE HISTORICAL MARLIANA', sans-serif;
+  line-height: 4rem;
+  display: inline-block;
+  position: relative;
+  font-size: calc(1.375rem + 1.5vw);
+}
+
+.title1 {
+  color: #F5F5F5;
+  margin-top: 5%;
+  font-family: 'THE HISTORICAL MARLIANA', sans-serif;
+  line-height: 4rem;
+  display: inline-block;
+  position: relative;
+  font-size: calc(1.375rem + 1.5vw);
+}
+
+.title2{
+  color: #F5F5F5;
+  margin-top: 5%;
+  font-size: calc(1.325rem + .9vw);
+}
+
+.titleimg {
+  z-index: 1;
+  position: absolute;
+  margin-left: 35rem;
+  margin-top: 15%;
+  transform: scaleX(-1);
+}
+.titleimg1 {
+  z-index: 1;
+  width: 0;
+  position: absolute;
+  margin-top: 15%;
+  transform: scaleX(-1);
+
+}
+.cbox{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* services */
+.services {
+  width: 100%;
+  padding: 7% 15%;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  background-color: #e8e8e8;
+
+}
+.servicet{
+  font-size: 3rem;
+  letter-spacing: 1rem;
+}
+.box {
+  margin-top: 7%;
+}
+
+.d-block {
+  width: 100%;
+}
+
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-right: 15%;
+  margin-bottom: -2rem;
+  margin-left: 15%;
+  list-style: none;
+}
+.sbtn {
+  background-color: #ff4c68;
+  color: white;
+  border-color:  #ff4c68;
+  margin: 1rem;
+  border-radius: 20px;
+  padding: 3px 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.form-label{
+  margin: 1rem;
+  font-size: 2rem;
+}
+.form-control{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.ctitle{
+  margin-top: 2rem;
+}
+
+/* counter */
+.counter{
+  background-color: #ff4c68;
+  padding: 3%;
+  font-family: 'Bondrians thin', sans-serif;
+  color: white;
+  letter-spacing: 0.2rem;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+}
+.count{
+  font-size: 5rem;
+
+}
+.count1{
+  font-size: 5rem;
+
+}
+#shiva{
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  margin: auto;
+  text-align: center;
+  padding: 2%;
+  display: inline-block;
+  width: 350px;
+  align-items: center;
+
+}
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* gallery */
+.gallery {
+  width: 100%;
+  padding: 7% 15%;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  background-color: #e8e8e8;
+
+}
+.gallerybox{
+  margin-top: 2.5rem;
+}
+.galleryt{
+  font-size: 5rem;
+  letter-spacing: 1rem;
+}
+.galleryt1{
+  font-size: 2.5rem;
+  letter-spacing: 1rem;
+}
+
+.gallery1 {
+  width: 100%;
+  padding: 7% 15%;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  background-color: #ff4c68;
+  color: white;
+
+}
+#footer{
+  text-align: center;
+  padding: 7% 15%;
+  background-color: #e8e8e8;
+  /* color: #8f8f8f; */
+
+}
+.foot-i {
+  margin: 0.5rem;
+}
+
+.titleimg3 {
+  z-index: 1;
+  position: absolute;
+  width: 180px;
+  margin-left: -180px;
+  margin-top: 225px;
+}
+/* mobile css */
+@media (max-width:1028px) {
+  body{
+    font-size: 2rem;
+  }
+
+  .logo {
+    width: 350px;
+  }
+  .navbar {
+margin: 2rem 15%;
+  }
+  .navbar-nav {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .navbar-collapse {
+      flex-basis: 100%;
+      flex-grow: 1;
+      align-items: center;
+      margin-top: 2rem;
+  }
+
+  .title {
+    color: #F5F5F5;
+    margin-top: 25%;
+    font-family: 'THE HISTORICAL MARLIANA', sans-serif;
+    line-height: 4rem;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    letter-spacing: 0.3rem;
+    font-size: 3rem;
+  }
+
+  .title1 {
+    color: #F5F5F5;
+    margin-top: 125%;
+    font-family: 'THE HISTORICAL MARLIANA', sans-serif;
+    line-height: 4rem;
+    display: inline-block;
+    position: relative;
+    letter-spacing: 0.3rem;
+    font-size: 3rem;
+  }
+  .title2{
+    color: #F5F5F5;
+    margin-top: 15%;
+    font-size: 4rem;
+  }
+
+  .titleimg {
+    z-index: 1;
+    position: absolute;
+    margin-left: 35rem;
+    margin-top: 88rem;
+    transform: scaleX(-1);
+  }
+  .titleimg1 {
+    z-index: 1;
+    position: absolute;
+    margin-top: 65%;
+    width: 70%;
+  }
+  .ltitle{
+    font-size: 2.5rem;
+  }
+  .ctitle{
+    font-size: 3rem;
+    margin-top: 1rem;
+  }
+  .form-control{
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      font-size: 1.5rem;
+  }
+  .counter{
+    background-color: #ff4c68;
+    padding: 15% 7%;
+    font-family: 'Bondrians thin', sans-serif;
+    color: white;
+    letter-spacing: 0.2rem;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+
+  }
+  #shiva{
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+  }
+  .count{
+    font-size: 12rem;
+
+  }
+  .count1{
+    font-size: 12rem;
+
+  }
+  h6{
+    font-size: 2.5rem;
+
+  }
+  .gallery {
+    width: 100%;
+    padding: 20% 15%;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    background-color: #e8e8e8;
+
+
+  }
+.galleryt{
+  font-size: 5rem;
+  letter-spacing: 1rem;
+
+}
+.galleryt1{
+  font-size: 2.5rem;
+  letter-spacing: 1rem;
+}
+.gallerybox{
+  margin-top: 10rem;
+}
+.gallery1 {
+  width: 100%;
+  padding: 20% 15%;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+
+
+
+}
+
+}
